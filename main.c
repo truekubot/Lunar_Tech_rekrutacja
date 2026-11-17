@@ -12,9 +12,9 @@
      double a = Fc / m - G_MOON; //hamowanie z włączonym silnikiem
      double h_next = h - v * DT - 0.5 * G_MOON * DT * DT; //wysokość w następnym kroku symulacji
      double v_next = v + G_MOON * DT; //prędkość w następnym kroku
-     double v_end = v_next * v_next - 2.0 * a * h_next;
+     double v_end = v_next * v_next - 2.0 * a * h_next; //v_końc^2 = v^2 − 2*a*h
 
-     return v > 0 & v_end >= V_MAX * V_MAX;
+     return v > 0 && v_end >= V_MAX * V_MAX;
  }
 
 int main(int argc, char *argv[]) {
@@ -24,7 +24,7 @@ int main(int argc, char *argv[]) {
     double Fc = (argc > 4) ? atof(argv[4]) : 4500.0;
     const char *fname = (argc > 5) ? argv[5] : "przebieg.csv";
 
-    if (m <= 0.0 || H <= 0.0 || Fc < 0.0) {
+    if (m <= 0.0 || H <= 0.0 || Fc < 0.0 || v < 0.0) {
         printf("Bledne dane wejsciowe.");
         return 1;
     }

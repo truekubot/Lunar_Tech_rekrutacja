@@ -3,9 +3,14 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
   </component>
@@ -23,7 +28,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d652d1b-6a2b-4fa8-a094-e911b6a025db" name="Changes" comment="">
+    <list default="true" id="7d652d1b-6a2b-4fa8-a094-e911b6a025db" name="Changes" comment="csv">
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
@@ -39,37 +45,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "truekubot"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;truekubot&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/truekubot/Lunar_Tech_rekrutacja.git",
-    "accountId": "62cdab23-78fd-4e03-b1cf-fa3f692f48f3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/truekubot/Lunar_Tech_rekrutacja.git&quot;,
+    &quot;accountId&quot;: &quot;62cdab23-78fd-4e03-b1cf-fa3f692f48f3&quot;
   }
-}]]></component>
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000002385903735" />
-      <entry key="S10" value="1.0005389486227372" />
-      <entry key="S30" value="1.458376207096279" />
-      <entry key="S60" value="5.527244642647007" />
-      <entry key="M2" value="16.32842189634922" />
-      <entry key="M5" value="33.490519285424114" />
-      <entry key="M10" value="42.85785942455421" />
-      <entry key="M15" value="46.560037445969" />
-      <entry key="M30" value="50.5971345578976" />
-      <entry key="H1" value="52.750808603823096" />
-      <entry key="H2" value="53.86319985892205" />
-      <entry key="H4" value="54.42851507103564" />
-      <entry key="D1" value="54.904321164101574" />
-      <entry key="W1" value="54.98632099329157" />
+      <entry key="MS100" value="1.0075988667766584" />
+      <entry key="MS500" value="1.3768337273895952" />
+      <entry key="S2" value="1.7834971869493406" />
+      <entry key="S5" value="1.907016059342825" />
+      <entry key="S10" value="1.952373907319402" />
+      <entry key="S30" value="1.983865720806137" />
+      <entry key="S60" value="1.9919000558554967" />
+      <entry key="M2" value="1.9959418877028279" />
+      <entry key="M5" value="2.0153392146924283" />
+      <entry key="M10" value="2.96377043967913" />
+      <entry key="M15" value="5.710986965688136" />
+      <entry key="M30" value="16.2852370413013" />
+      <entry key="H1" value="30.029277667839164" />
+      <entry key="H2" value="41.26303279455581" />
+      <entry key="H4" value="48.469969824282344" />
+      <entry key="D1" value="55.476648835344555" />
+      <entry key="W1" value="56.779749611982474" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -91,23 +97,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9460576467255959" />
-      <entry key="MS500" value="0.9889709163809315" />
-      <entry key="S2" value="0.9972312513520695" />
-      <entry key="S5" value="0.9988918175236641" />
-      <entry key="S10" value="0.9999842362931854" />
-      <entry key="S30" value="1.4581497529609804" />
-      <entry key="S60" value="5.526993797658696" />
-      <entry key="M2" value="16.328130454853007" />
-      <entry key="M5" value="33.4903014524661" />
-      <entry key="M10" value="42.857723349586266" />
-      <entry key="M15" value="46.55993961392801" />
-      <entry key="M30" value="50.59708177325751" />
-      <entry key="H1" value="52.75078118173641" />
-      <entry key="H2" value="53.86318588220984" />
-      <entry key="H4" value="54.42850801520782" />
-      <entry key="D1" value="54.90431997866849" />
-      <entry key="W1" value="54.986320823711054" />
+      <entry key="MS100" value="0.014888187023039791" />
+      <entry key="MS500" value="0.7505460395483299" />
+      <entry key="S2" value="1.5653668300779342" />
+      <entry key="S5" value="1.8132779976101594" />
+      <entry key="S10" value="1.9043518158169335" />
+      <entry key="S30" value="1.9675950583157769" />
+      <entry key="S60" value="1.9837313608210336" />
+      <entry key="M2" value="1.991849164994336" />
+      <entry key="M5" value="2.0137000008226575" />
+      <entry key="M10" value="2.9629474892266003" />
+      <entry key="M15" value="5.710432500383747" />
+      <entry key="M30" value="16.284948767494665" />
+      <entry key="H1" value="30.029126402288785" />
+      <entry key="H2" value="41.262954256678036" />
+      <entry key="H4" value="48.46992962473145" />
+      <entry key="D1" value="55.47664198475115" />
+      <entry key="W1" value="56.779748629324914" />
     </decayedShown>
   </component>
   <component name="ProjectApplicationVersion">
@@ -116,10 +122,10 @@
     <option name="minorVersion" value="3.0.1" />
     <option name="productBranch" value="Classic" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3LxRjSgMfwnkdEchpurLxjYWBRD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -134,6 +140,7 @@
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "cf.first.check.clang-format": "false",
@@ -153,14 +160,16 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SelectedDebugProfileService"><![CDATA[{
   "profileIdByStamp": [
+    {
+      "first": {
+        "##RUN_CONFIGURATION##": "CMake Application.Lunar_Tech_rekrutacja",
+        "cmake": null
+      },
+      "second": "29ba188f-248c-458d-8a47-1608cc719e6f"
+    },
     {
       "first": {
         "##RUN_CONFIGURATION##": "CMake Application.Lunar_Tech_rekrutacja",
@@ -169,7 +178,7 @@
       "second": "29ba188f-248c-458d-8a47-1608cc719e6f"
     }
   ],
-  "modificationCount": 2
+  "modificationCount": 8
 }]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -200,5 +209,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="csv" />
+    <option name="LAST_COMMIT_MESSAGE" value="csv" />
   </component>
 </project>
