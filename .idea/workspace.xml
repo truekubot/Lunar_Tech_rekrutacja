@@ -28,10 +28,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d652d1b-6a2b-4fa8-a094-e911b6a025db" name="Changes" comment="csv">
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+    <list default="true" id="7d652d1b-6a2b-4fa8-a094-e911b6a025db" name="Changes" comment="fix">
+      <change afterPath="$PROJECT_DIR$/symulacja/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symulacja/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wykres/plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wykres/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wyniki/przebieg.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wyniki/wykres_predkosci.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wyniki/wykres_wysokosci.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/symulacja/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,61 +67,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0075988667766584" />
-      <entry key="MS500" value="1.3768337273895952" />
-      <entry key="S2" value="1.7834971869493406" />
-      <entry key="S5" value="1.907016059342825" />
-      <entry key="S10" value="1.952373907319402" />
-      <entry key="S30" value="1.983865720806137" />
-      <entry key="S60" value="1.9919000558554967" />
-      <entry key="M2" value="1.9959418877028279" />
-      <entry key="M5" value="2.0153392146924283" />
-      <entry key="M10" value="2.96377043967913" />
-      <entry key="M15" value="5.710986965688136" />
-      <entry key="M30" value="16.2852370413013" />
-      <entry key="H1" value="30.029277667839164" />
-      <entry key="H2" value="41.26303279455581" />
-      <entry key="H4" value="48.469969824282344" />
-      <entry key="D1" value="55.476648835344555" />
-      <entry key="W1" value="56.779749611982474" />
+      <entry key="MS100" value="1.0000000009762422" />
+      <entry key="MS500" value="1.0430602355841117" />
+      <entry key="S2" value="2.5037519653667637" />
+      <entry key="S5" value="4.601642019391852" />
+      <entry key="S10" value="6.396265805940775" />
+      <entry key="S30" value="9.572720743839236" />
+      <entry key="S60" value="13.09965367402244" />
+      <entry key="M2" value="18.06168508700351" />
+      <entry key="M5" value="29.280570661587657" />
+      <entry key="M10" value="40.69200833481774" />
+      <entry key="M15" value="47.41348891615824" />
+      <entry key="M30" value="60.90455842963118" />
+      <entry key="H1" value="78.17399135069786" />
+      <entry key="H2" value="94.49159375019825" />
+      <entry key="H4" value="106.10497180792976" />
+      <entry key="D1" value="118.24949860588981" />
+      <entry key="W1" value="120.59991077452773" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS500" value="1.0332258698565745E-123" />
+      <entry key="S2" value="1.7928700727232727E-31" />
+      <entry key="S5" value="5.028280853913521E-13" />
+      <entry key="S10" value="7.091037197697886E-7" />
+      <entry key="S30" value="0.00891736591541337" />
+      <entry key="S60" value="0.09443180563461319" />
+      <entry key="M2" value="0.3072975848174098" />
+      <entry key="M5" value="0.6237688152160794" />
+      <entry key="M10" value="0.7897903615619015" />
+      <entry key="M15" value="0.8544261919287455" />
+      <entry key="M30" value="0.9243517684998205" />
+      <entry key="H1" value="0.9614321445114159" />
+      <entry key="H2" value="0.9805264629327518" />
+      <entry key="H4" value="0.9902153618949533" />
+      <entry key="D1" value="0.9983625383982675" />
+      <entry key="W1" value="0.9997659125874095" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.014888187023039791" />
-      <entry key="MS500" value="0.7505460395483299" />
-      <entry key="S2" value="1.5653668300779342" />
-      <entry key="S5" value="1.8132779976101594" />
-      <entry key="S10" value="1.9043518158169335" />
-      <entry key="S30" value="1.9675950583157769" />
-      <entry key="S60" value="1.9837313608210336" />
-      <entry key="M2" value="1.991849164994336" />
-      <entry key="M5" value="2.0137000008226575" />
-      <entry key="M10" value="2.9629474892266003" />
-      <entry key="M15" value="5.710432500383747" />
-      <entry key="M30" value="16.284948767494665" />
-      <entry key="H1" value="30.029126402288785" />
-      <entry key="H2" value="41.262954256678036" />
-      <entry key="H4" value="48.46992962473145" />
-      <entry key="D1" value="55.47664198475115" />
-      <entry key="W1" value="56.779748629324914" />
+      <entry key="MS100" value="0.9794202985430754" />
+      <entry key="MS500" value="1.0387267022768074" />
+      <entry key="S2" value="2.501056636961262" />
+      <entry key="S5" value="4.599561078780905" />
+      <entry key="S10" value="6.394759150129797" />
+      <entry key="S30" value="9.580814886851641" />
+      <entry key="S60" value="13.192988834879525" />
+      <entry key="M2" value="18.366899501535503" />
+      <entry key="M5" value="29.90174073338498" />
+      <entry key="M10" value="41.479701096812796" />
+      <entry key="M15" value="48.26622171111279" />
+      <entry key="M30" value="61.827846295955446" />
+      <entry key="H1" value="79.13481188878097" />
+      <entry key="H2" value="95.4717888206451" />
+      <entry key="H4" value="107.0950140613419" />
+      <entry key="D1" value="119.24783115597731" />
+      <entry key="W1" value="121.59967237364947" />
     </decayedShown>
   </component>
   <component name="ProjectApplicationVersion">
@@ -127,6 +135,9 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3LxRjSgMfwnkdEchpurLxjYWBRD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -146,15 +157,33 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/nnic5/CLionProjects/Lunar-Tech-rekrutacja/wyniki",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nnic5\CLionProjects\Lunar-Tech-rekrutacja\wyniki" />
+      <recent name="C:\Users\nnic5\CLionProjects\Lunar-Tech-rekrutacja\wykres" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nnic5\CLionProjects\Lunar-Tech-rekrutacja\symulacja" />
+      <recent name="C:\Users\nnic5\CLionProjects\Lunar-Tech-rekrutacja\wyniki" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lunar_Tech_rekrutacja" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Lunar_Tech_rekrutacja" TARGET_NAME="Lunar_Tech_rekrutacja" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Lunar_Tech_rekrutacja" RUN_TARGET_NAME="Lunar_Tech_rekrutacja">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -212,6 +241,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="csv" />
-    <option name="LAST_COMMIT_MESSAGE" value="csv" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>
