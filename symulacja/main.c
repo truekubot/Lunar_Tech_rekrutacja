@@ -22,14 +22,17 @@ int main(int argc, char *argv[]) {
     double H  = (argc > 2) ? atof(argv[2]) : 500.0;
     double v  = (argc > 3) ? atof(argv[3]) : 10.0;
     double Fc = (argc > 4) ? atof(argv[4]) : 4500.0;
-    const char *fname = (argc > 5) ? argv[5] : "przebieg.csv";
+    double fuel = (argc > 5) ? atof(argv[5]) : 100.0; //poczatkowa ilosc paliwa
+    const char *fname = (argc > 6) ? argv[6] : "przebieg.csv";
+
+    double fuel_consumption = 2; //zuzycie paliwa na sekunde
 
     if (m <= 0.0 || H <= 0.0 || Fc < 0.0 || v < 0.0) {
         printf("Bledne dane wejsciowe.");
         return 1;
     }
      FILE *f = fopen(fname, "w");
-     fprintf(f, "czas_s,wysokosc_m,predkosc_ms,silnik\n");
+     fprintf(f, "czas_s,wysokosc_m,predkosc_ms,silnik,paliwo\n");
 
      double t = 0.0;
      double next_print = 0.0;
@@ -38,10 +41,20 @@ int main(int argc, char *argv[]) {
     while (1) {
         engine = pilot(m, H, v, Fc);
 
-        fprintf(f, "%.2f,%.3f,%.3f,%d\n", t, H, v, engine);
+        if (fuel <= 0.0)
+            engine = 0;
+
+        if (engine) {
+            fuel -= fuel_consumption * DT; //zużywanie paliwa
+            if (fuel < 0.0) {
+                fuel = 0.0;
+            }
+        }
+
+        fprintf(f, "%.2f,%.3f,%.3f,%d,%.2f\n", t, H, v, engine, fuel);
 
         if (t >= next_print) {
-            printf("H=%.1fm, V=%.1fm/s, %s\n", H, v, engine ? "ON" : "OFF");
+            printf("H=%.1fm, V=%.1fm/s, PALIWO=%.1f%%, %s\n", H, v, fuel, engine ? "ON" : "OFF");
             next_print += PRINT_FREQ;
         }
 
@@ -60,8 +73,8 @@ int main(int argc, char *argv[]) {
             if (s < 0.0 || s > DT) s = DT;
             double v_touch = v + a_down * s;
             t += s;
-            fprintf(f, "%.2f,%.3f,%.3f,%d\n", t, 0.0, v_touch, engine);
-            printf("H=0.0m, V=%.1fm/s, %s\n", v_touch, engine ? "ON" : "OFF");
+            fprintf(f, "%.2f,%.3f,%.3f,%d,%.2f\n", t, H, v, engine, fuel);
+            printf("H=%.1fm, V=%.1fm/s, PALIWO=%.1f%%, %s\n", H, v, fuel, engine ? "ON" : "OFF");
             printf("\nDotkniecie Ksiezyca po %.2f s z predkoscia %.2f m/s.\n", t, v_touch);
 
             if (v_touch < V_MAX)

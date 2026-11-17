@@ -24,3 +24,15 @@ plt.grid(True)
 plt.tight_layout()
 plt.savefig("./wyniki/wykres_predkosci.png")
 plt.show()
+
+# Wykres poziomu paliwa
+plt.figure(figsize=(10, 5))
+plt.plot(dane["czas_s"], dane["paliwo"])
+plt.xlabel("Czas [s]")
+plt.ylabel("Pozostałe paliwo")
+plt.title("Zużycie paliwa lądownika w funkcji czasu")
+plt.grid(True)
+plt.tight_layout()
+plt.savefig("./wyniki/wykres_paliwa.png")
+plt.show()
+
